@@ -1,0 +1,10 @@
+header
+main : 1 div (imagem), 1 div (conteudo) -> 50% flex diretion column
+
+REMOVER AS BORDAS
+ASUBSTITUIR CORES POR VARIVAVEIS DE CORES
+APRENDER A FORMATAR IMAGENS CSS
+PESQUISAR SOBRE O 'FLEX-GROW'
+
+""".card figure {
+  flex-grow: 1;""" 

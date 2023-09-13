@@ -1,0 +1,115 @@
+    /* FORMATAÇÃO GERAL */
+*{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+    --cor-secundaria: #444644;
+}
+
+header, .header-menu ul, .banner{
+    background-color: #5eb3c3;
+    display: flex;
+}
+    /*FIM FORMATAÇÃO GERAL*/
+
+    /*HEADER*/
+header{
+    justify-content: space-between;
+    align-items: center;
+    /*height: 100px;*/
+    padding: 30px;
+}
+.header-logo, header-menu{
+    margin: 0px 50px;
+}
+
+header nav ul{
+    margin-right: 50px;
+    gap: 25px;
+}
+
+    /*BANNER*/
+.banner{
+    /*height: 400px;*/
+    padding: 50px 0px;
+}
+
+.banner-img, .banner-conteudo{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.banner-img{
+    justify-content: end;
+    padding: 30px;
+}
+
+.banner-img img{
+    height: 90%;
+}
+    /*BANNER CONTEUDO*/
+.banner-conteudo{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+.banner-conteudo h1{
+    width: 200px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.banner-conteudo p{
+    font-size: small;
+}
+
+    /* "ASIDE" */
+.aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #444644; /*criar variaveis de cor*/
+    height: 75px;
+}
+.aside > .p1{
+    font-size: 25px;
+}
+
+.aside > .p2{
+    font-size: 12px;
+}
+
+    /*MENU NAVEGAÇÃO 1*/
+.nav-menu1{
+    background-color: rgb(182, 229, 229);
+    display: flex;
+    gap: 30px;
+    padding: 40px 10px;
+}
+
+    /* CARDS */
+.card{
+    border: 1PX solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+
+.card figure{
+    flex-grow: 1;
+}
+
+.card > h1, .card > p{
+    color: #444644;
+    margin-top: 15px;
+}
